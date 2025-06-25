@@ -1,0 +1,11 @@
+inputs:
+  businessevent:
+    disabled: false
+    sendToRoutes: true
+    pqEnabled: false
+    streamtags: []
+    samples:
+      - eventsPerSec: 10
+        sample: business_event
+    type: datagen
+    description: Log events for a sample business scenario

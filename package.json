@@ -1,0 +1,1 @@
+{"name":"Learning-Pack","version":"0.0.1","minLogStreamVersion":"4.12.0","author":"Alyssa","description":"Learning how to use Packs for config management","displayName":"Learning-Pack","tags":{"streamtags":[],"dataType":["logs","metrics","traces"],"useCase":["reduction","routing","filtering","enrichment","aggregation"],"technology":["aws","cisco","paloalto"]},"exports":[]}

@@ -1,0 +1,17 @@
+output: default
+streamtags: []
+groups: {}
+asyncFuncTimeout: 1000
+functions:
+  - id: mask
+    filter: "true"
+    disabled: null
+    conf:
+      rules:
+        - disabled: false
+          matchRegex: /(social=)(\d+)/
+          replaceExpr: "`${g1}${C.Mask.md5(g2)}`"
+      fields:
+        - _raw
+      depth: 5
+description: ""
